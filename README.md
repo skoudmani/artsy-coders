@@ -1,21 +1,21 @@
-# Cosmic Coders 🌌
+# Artsy Coders 🌌
 
-An interactive Python workshop where you turn real astronomy data into pictures of the Universe — and then run your own simulation of it. You'll learn `matplotlib` by **painting galaxies**, mapping supermassive black holes, and watching planets orbit. Perfect for curious coders and space enthusiasts.
+An interactive Python workshop where you turn real astronomy data into pictures of the Universe. You'll learn `matplotlib` by **painting galaxies**, mapping supermassive black holes, and watching planets orbit. Perfect for curious coders and space enthusiasts.
 
 ## The workshop: three notebooks
 
-The workshop is split into **three separate notebooks** so that if one environment becomes unstable, the others keep working. Run them in order, but each stands alone.
+The workshop is split into **three separate notebooks**. Run them in order, but each stands alone.
 
-1. **`1_Plotting_Foundations.ipynb`** — a gentle warm-up in `matplotlib`: line plots, scatter plots, colour and style, and comparing multiple lines.
-2. **`2_Painting_the_Galaxy.ipynb`** — *the core of the workshop.* Load a real supercomputer galaxy simulation and visualise it: 2D maps, stars, gas-density images (`imshow`), an edge-on view, a 3D rotation animation, and a "your turn" supermassive-black-hole-binary challenge.
-3. **`3_Run_Your_Own_Simulation.ipynb`** — a hands-on bonus: run your own N-body gravity simulation of a mini solar system and experiment with it (add planets, change speeds and masses), plus optional 3D and "tiny-changes-wild-results" demos. No physics background needed — just run and play.
+1. **`1_Plotting_Foundations.ipynb`**: a gentle warm-up in `matplotlib`: line plots, scatter plots, colour and style, and comparing multiple lines.
+2. **`2_Painting_the_Galaxy.ipynb`**: *the core of the workshop.* Load a real supercomputer galaxy simulation and visualise it: 2D maps, stars, gas-density images (`imshow`), an edge-on view, a 3D rotation animation, and a "your turn" supermassive-black-hole-binary challenge.
+3. **`3_Run_Your_Own_Simulation.ipynb`**: a hands-on bonus: run your own N-body gravity simulation of a mini solar system and experiment with it (add planets, change speeds and masses), plus optional 3D and "tiny-changes-wild-results" demos. No physics background needed — just run and play.
 
-## Built for a flaky classroom 🛟
+## Built for any classroom 🛟
 
-Last year, students sometimes ran cells out of order after the environment reset, hitting "module not imported" or "name not defined" errors. These notebooks are designed to prevent that:
+These notebooks are designed to be extremely robust and can deal with kernel restarts, network interruptions etc:
 
 - **Every code cell is self-contained.** Each one imports its own libraries and (re)loads its own data, so any cell can be run on its own, in any order, any number of times.
-- **No data, no problem.** The galaxy notebook loads the provided data files if present, but falls back to a built-in synthetic galaxy if they're missing — so the visualisations always work, even if the environment loses the `data/` folder.
+- **No data, no problem.** The galaxy notebook loads the provided data files if present, but falls back to a built-in synthetic galaxy if they're missing: so the visualisations always work, even if the environment loses the `data/` folder.
 - If anything looks stuck: **Kernel → Restart**, then re-run just the cell you care about. No need to start from the top.
 
 ## Data
