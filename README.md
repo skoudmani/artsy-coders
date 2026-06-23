@@ -37,4 +37,4 @@ See `requirements.txt` (`matplotlib`, `numpy`, `pandas`, `ipython`).
 
 ## Licence & credits
 
-**Author: Dr Sophie Koudmani.** Licensed under the GNU General Public License v3.0 (GPLv3). Collaboration is encouraged. These notebooks were prepared with the assistance of large language models (ChatGPT and Gemini); the core workshop ideas and educational concepts are the original work of the author.
+**Author: Dr Sophie Koudmani.** Licensed under the GNU General Public License v3.0 (GPLv3). Collaboration is encouraged. These notebooks were prepared with the assistance of large language models; the core workshop ideas and educational concepts are the original work of the author.
